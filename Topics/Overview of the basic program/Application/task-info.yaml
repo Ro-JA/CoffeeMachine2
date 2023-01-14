@@ -5,5 +5,8 @@ files:
   text: "fun main() { \n    println(2 + 2 = 4) // fix this line\n}"
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/23011#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 14 Jan 2023 15:40:56 UTC"
 record: -1
