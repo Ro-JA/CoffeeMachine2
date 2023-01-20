@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Coffee Machine/task" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Currencies" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Theory" />
             <option value="$PROJECT_DIR$/Topics/For loop and ranges/Check the order" />
             <option value="$PROJECT_DIR$/Topics/For loop and ranges/Count the numbers" />
             <option value="$PROJECT_DIR$/Topics/For loop and ranges/Define a for-loop" />
@@ -33,6 +35,14 @@
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Roots of quadratic equation" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Why decompose a program" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Application as a class" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Arithmetic operations" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Car" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Keyword to declare a member function" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Operations" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Patient needs a doctor" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Member functions/Volume of a cube" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Application" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Find a keyword" />
             <option value="$PROJECT_DIR$/Topics/Overview of the basic program/I like Kotlin" />
