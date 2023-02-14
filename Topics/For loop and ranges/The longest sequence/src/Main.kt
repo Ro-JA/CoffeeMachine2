@@ -3,14 +3,14 @@ fun main() {
     var count = 0
     var max = 0
 
-   val num = readln().toInt()
-    val arr = IntArray(num) { readln().toInt()}
+    val num = readln().toInt()
+    val arr = IntArray(num) { readln().toInt() }
     for (i in arr) {
         if (i >= min) {
             min = i
             count++
             max = count
-        } else if (num - max > max){
+        } else if (num - max > max) {
             min = i
             count = 0
             count++
