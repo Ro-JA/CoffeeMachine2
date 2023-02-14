@@ -1,20 +1,20 @@
 fun main() {
-    var l = mutableListOf<Int>()
     var min = 1
+    var count = 0
     var max = 0
-    var m = mutableListOf<Int>()
-    val n = readLine()!!.toInt()
-    repeat(n) {
-        val i = readLine()!!.toInt()
-        l.add(i)
-    }
-    for (i in l) {
+
+   val num = readln().toInt()
+    val arr = IntArray(num) { readln().toInt()}
+    for (i in arr) {
         if (i >= min) {
-            max += 1
             min = i
-        } else {
-            m.add(max)
+            count++
+            max = count
+        } else if (num - max > max){
+            min = i
+            count = 0
+            count++
         }
     }
-    println(m.maxOrNull())
+    println(max)
 }
