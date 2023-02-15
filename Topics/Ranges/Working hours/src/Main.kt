@@ -4,4 +4,5 @@ fun main() {
     val lunchTime = 13..14
     // do not change the code above
     // put your code here
+    println(time in workTime && time !in lunchTime)
 }
