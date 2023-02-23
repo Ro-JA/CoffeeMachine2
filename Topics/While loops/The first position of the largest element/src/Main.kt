@@ -1,3 +1,7 @@
+import java.util.Scanner
+
 fun main() {
-    // put your code here
+    val numbers = readln().split(" ").map { it.toInt() }.toTypedArray()
+    val list = mutableListOf<Int>(*numbers)
+    println(list.maxOrNull())
 }
