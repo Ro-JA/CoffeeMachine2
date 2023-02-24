@@ -10,4 +10,8 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/4719#comment
 status: Failed
+feedback:
+  message: |
+    Failed test #4 of 8. Wrong answer
+  time: "Fri, 24 Feb 2023 15:08:48 UTC"
 record: -1
