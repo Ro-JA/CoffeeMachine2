@@ -7,18 +7,15 @@ fun main() {
     while (scanner.hasNextInt()) {
         val next = scanner.nextInt()
         prise = next
-        if (balance >= prise) {
-            balance -= prise
-            if (!scanner.hasNextInt()) {
-                println("Thank you for choosing us to manage your account! Your balance is $balance.")
-            }
-        } else {
+        if (balance - prise < 0) {
             println(
                 "Error, insufficient funds for the purchase. Your balance is $balance, " +
                         "but you need $prise."
             )
-            break
         }
+        balance -= prise
     }
-
+    if (balance >= 0) {
+        println("Thank you for choosing us to manage your account! Your balance is $balance.")
+    }
 }
