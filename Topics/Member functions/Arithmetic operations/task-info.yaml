@@ -5,12 +5,8 @@ files:
   text: // write your class here
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/20647#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Compilation error
-    main.kt:12:16: error: unresolved reference: ArithmeticOperations
-        val test = ArithmeticOperations(10, 5)
-                   ^
-  time: "Sat, 14 Jan 2023 16:17:10 UTC"
+  message: <html>Correct solution</html>
+  time: "Sun, 26 Feb 2023 09:26:01 UTC"
 record: -1
