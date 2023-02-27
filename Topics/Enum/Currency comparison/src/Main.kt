@@ -1,4 +1,3 @@
-import java.util.Currency
 import java.util.Scanner
 
 fun main() {
@@ -6,14 +5,13 @@ fun main() {
     val countryFirst = scanner.next()
     val countrySecond = scanner.next()
 
-
     try {
-        println(CurrencyCountry.valueOf(countryFirst).currency
-                == CurrencyCountry.valueOf(countrySecond).currency)
+        println(
+            CurrencyCountry.valueOf(countryFirst).currency == CurrencyCountry.valueOf(countrySecond).currency
+        )
     } catch (e: IllegalArgumentException) {
         println(false)
     }
-
 }
 
 enum class CurrencyCountry(val country: String, val currency: String) {
@@ -28,6 +26,4 @@ enum class CurrencyCountry(val country: String, val currency: String) {
     France("France", "Euro"),
     Grenada("Grenada", "Eastern Caribbean dollar"),
     Kiribati("Kiribati", "Australian dollar");
-
-
 }
