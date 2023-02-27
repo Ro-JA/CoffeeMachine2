@@ -5,3 +5,5 @@ content:
 - Days of the week
 - Danger level
 - Ordinal property
+- valueOf() method
+- Currency comparison
