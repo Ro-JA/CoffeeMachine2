@@ -8,5 +8,18 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7862#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:2:95: error: no value passed for parameter 'p1'
+        val res = Math.hypot((x2 - x1) + (y2-y1) +(x3-x2 +(y3-y2)+(x4-x3)+(y4-y3))+(x1-x4)+(y1-y4))
+                                                                                                  ^
+    main.kt:8:76: error: no value passed for parameter 'x4'
+            3 -> perimeter(vars[0], vars[1], vars[2], vars[3], vars[4], vars[5])
+                                                                               ^
+    main.kt:8:76: error: no value passed for parameter 'y4'
+            3 -> perimeter(vars[0], vars[1], vars[2], vars[3], vars[4], vars[5])
+                                                                               ^
+  time: "Thu, 02 Mar 2023 14:18:50 UTC"
 record: -1
