@@ -8,5 +8,9 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7368#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 5. Wrong answer
+  time: "Wed, 01 Mar 2023 13:03:22 UTC"
 record: -1
